@@ -1,5 +1,9 @@
 function res = grs2rgb(img, map)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%source from Grayscale to RGB Converter (https://www.mathworks.com/matlabcentral/fileexchange/13312-grayscale-to-rgb-converter), 
+%MATLAB Central File Exchange. Retrieved January 30, 2020.
+%I have implemented this function from an author name Valeriy Korostyshevskiy (2020).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Convert grayscale images to RGB using specified colormap.
 %	IMG is the grayscale image. Must be specified as a name of the image 
 %	including the directory, or the matrix.
