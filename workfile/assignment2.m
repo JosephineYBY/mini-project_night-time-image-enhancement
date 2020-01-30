@@ -27,12 +27,7 @@ figure
 imshow(J);
 %title('Original image(left)/CLAHE(right)')
 %% linear stretch
-clc;clear;
 image=imread('assignment.jpg');
 ya=170;yb=200;xa=50;xb=80;maxL=255;
 [dis_image] = linear_stretch(image,maxL,ya,yb,xa,xb);
-
-
-%%
-imshow(image)
 
